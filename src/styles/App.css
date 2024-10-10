@@ -1,0 +1,26 @@
+/* App.css */
+
+.calculator {
+  width: 90%;
+  max-width: 400px;
+  margin: 50px auto;
+  border: 1px solid #333; 
+  border-radius: 10px;
+  background-color: #1e1e1e; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media (min-width: 768px) {
+  .calculator {
+    max-width: 600px; 
+  }
+}
+
+@media (min-width: 1200px) {
+  .calculator {
+    max-width: 800px; 
+  }
+}
